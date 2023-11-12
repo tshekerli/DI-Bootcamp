@@ -1,0 +1,16 @@
+/* body{
+    background-image: url("/DI-Bootcamp-Stage1/Final-Project/pictures/background_image.jpg");
+    background-size: 100%, 100% !important;
+    
+    background-repeat: no-repeat;
+
+} */
+
+#header{
+    /* color:#E3FDFD; */
+    position: inherit;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 30px;
+
+}
