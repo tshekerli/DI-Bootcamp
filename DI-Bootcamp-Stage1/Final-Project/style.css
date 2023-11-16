@@ -1,8 +1,10 @@
-
+html{
+  scroll-behavior: smooth; 
+}
 body {
   background-color: #153d3f;
   padding: 20px;
-  scroll-behavior: smooth; 
+  
 }
 
 .head {
