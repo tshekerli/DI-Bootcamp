@@ -10,6 +10,7 @@
 
 <body>
 
+      <!-- Top text and fonts -->
       <div class="head">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +19,14 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&display=swap"
                   rel="stylesheet">
-            <h1>
+            <div  id="top"></div>
+                  <h1>
                   <p>Marie Curie</p>
                   <p>First Woman to win a Nobel Prize</p>
             </h1>
+      
       </div>
-
+      <!-- Table of contents button -->
       <div class="container">
             <div class="total">
                   <img src="./pictures/background_image.jpg" alt="menu picture">
@@ -64,6 +67,7 @@
 
             </div>
       </div>
+
       <div class="texts">
             <div class="container">
 
@@ -291,6 +295,29 @@
                   </div>
             </div>
       </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+      
+      
+      <script>
+
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0; // 
+              document.documentElement.scrollTop = 0; 
+            }
+            </script>
 </body>
 
 </html>
