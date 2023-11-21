@@ -1,8 +1,12 @@
 body{
-    background-image: url('.')
+    background-image: url("/images/back.jpg");
+    color: white;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
-.head{
+h1, h2, h3{
     font-family: 'Dancing Script', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
@@ -17,12 +21,12 @@ text-align: center;
 }
 .link a:hover, .link a:active {
     background-color: #ddd; /* This will change the background color of the link */
-    color: red; /* This will change the text color of the link */
+    color: white; /* This will change the text color of the link */
 }
 
 .current {
     background-color: #ddd; /* This will change the background color of the current link */
-    color: red; /* This will change the text color of the current link */
+    color: b; /* This will change the text color of the current link */
 }
 
 
@@ -52,7 +56,53 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 text-align: center;
+max-width: 700px; /* Adjust this value to your preference */
+    margin: 0 auto;
 }
 .content img{
     max-width: 500px;
+}
+
+.eben {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #EEF5FF;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.section {
+    flex-basis: calc(33.33% - 20px); /* 33.33% for 3 columns, minus margin */
+    margin: 10px; /* Adjust as needed */
+    padding: 20px; /* Adjust as needed */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Optional: This will add some space between the buttons */
+    width: 75px;
+    
+}
+button{
+    border-radius: 20;
+}
+
+footer{
+    text-align: center;
 }

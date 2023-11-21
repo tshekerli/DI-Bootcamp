@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+    <div class="head">
+        <h1>Olim Hadashim</h1>
+    </div>
+
+    <div class="container">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about.html">About Olim</a></div>
+        <div class="link"><a href="resources.html">Resources</a></div>
+        <div class="link"><a href="contact.html">Contact Olim</a></div>
+    </div>
+    <div class="content">
+        <h2>Connecting Hearts and Resources: A Gateway to Support Olim Hadashim</h2>
+        <p>Welcome to the Resources Page, dedicated to supporting Olim Hadashim. Here, we connect those offering support
+            with tangible resources. Let's acknowledge the strength of unity in our diverse world, creating a global
+            community committed to positive impact. Olim's journey showcases resilience, and your resources—time,
+            expertise, or material assistance—can provide vital support. Every contribution matters, from job
+            opportunities to financial assistance. Thank you for being part of this effort to make a lasting difference.
+            Explore the current needs section below to shape a brighter future for Olim Hadashim.</p>
+        <div class="second"><img src="./images/1.jpg" alt="Image of a young refugee Olim Hadashim"></div>
+        <h2>Understanding the Needs:</h2>
+        <p>
+            Olim Hadashim urgently needs secure housing, sustenance, and essential healthcare. Your support can provide
+            a stable foundation as he adapts to life in a new country.</p>
+        <p>He's eager to join the workforce and build a sustainable future. If you have job leads or can guide him
+            through the local job market, your assistance is invaluable.</p>
+        <p>Community connections are crucial for Olim's sense of belonging. Offering friendship, mentorship, or sharing
+            resources for community integration can greatly enhance his daily life.</p>
+        <p>As a refugee, Olim may face legal challenges. Expertise in immigration law or connecting him with legal
+            resources will help navigate these complexities.</p>
+        <h2>How You Can Help:</h2>
+        <li>Donate: Financial contributions directly impact Olim's immediate needs like housing, food, and healthcare.
+        </li>
+        <li>Job Opportunities: If you know of job openings aligning with Olim's skills, please reach out. Facilitating
+            employment opportunities is transformative.</li>
+        <li>Community Outreach: Share Olim's story to increase awareness and support opportunities—whether in job
+            referrals, housing, or community engagement.</li>
+        <li>Legal Support: If you have immigration law expertise or can connect Olim with legal professionals, your
+            assistance is crucial for navigating legal challenges.</li>
+
+        
+
+    </div>
+    <footer><h3>Join us in making a difference in Olim Hadashim's life. Your support, big or small, contributes to a
+        brighter and more stable future. Together, let's build a community of compassion and solidarity.</h3>
+    </footer>
+
+    <script>
+        // Get all links in the container
+        var links = document.querySelectorAll('.container a');
+
+        // Loop through the links
+        for (var i = 0; i < links.length; i++) {
+            // If the href of the link matches the current URL
+            if (links[i].href == window.location.href) {
+                // Add the 'current' class to the link
+                links[i].classList.add('current');
+            }
+        }
+    </script>
+</body>
+
+</html>

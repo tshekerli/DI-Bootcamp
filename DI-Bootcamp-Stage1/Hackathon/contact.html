@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <div class="head">
+        <h1>Olim Hadashim</h1>
+    </div>
+
+    <div class="container">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about.html">About Olim</a></div>
+        <div class="link"><a href="resources.html">Resources</a></div>
+        <div class="link"><a href="contact.html">Contact Olim</a></div>
+    </div>
+    
+
+    <div class="container1">
+        <div class="section">
+            <p>Contact Olim Hadashim</p>
+            <p>Thank you for reaching out to support Olim Hadashim. Your inquiries and contributions are valuable in making a positive impact on his journey. Please find below various ways to connect with us:</p>
+        </div>
+        <div class="section">
+            <p>Contact Form</p>
+            <form>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="section">
+            <p>Email</p>
+            <p>If you prefer using your email client, feel free to reach out to us at Olim.Hadashim@gmail.com. Specify the purpose of your email, whether it's a general inquiry or a collaboration opportunity.</p>
+        </div>
+        <div class="section">
+            <p>Social Media</p>
+            <div class="social-buttons">
+                <button>Facebook</button>
+                <button>Twitter</button>
+                <button>Instagram</button>
+            </div>
+        </div>
+        <div class="section">
+            <p>Phone (Optional)</p>
+            <p>For urgent matters or if you prefer direct communication, you can contact us by phone at +1568954785. Please be mindful of time zones, and we'll do our best to respond promptly.</p>
+        </div>
+        <div class="section">
+            <p>Collaboration Opportunities</p>
+            <p>We welcome collaboration opportunities and support from individuals and organizations. If you're interested in contributing to Olim's journey, please visit our [Collaboration Page] for more information.</p>
+        </div>
+        <div class="section">
+            <p>Privacy Assurance</p>
+            <p>Rest assured that any personal information you provide will be treated with confidentiality and used only for the intended purpose of communication.</p>
+        </div>
+        <div class="section">
+            <p>Newsletter Signup (Optional)</p>
+            <form>
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+        <div class="section">
+            <p>Location Information (Optional)</p>
+            <p>For traditional mail communication, our physical address is: 31 Carlebagh, Tel Aviv, Bilzen, ZipCode 7107 Israel</p>
+        </div>
+    </div>
+<footer><h3>Join us in making a difference in Olim Hadashim's life. Your support, big or small, contributes to a
+    brighter and more stable future. Together, let's build a community of compassion and solidarity.</h3>
+</footer>
+
+    <script>
+        // Get all links in the container
+        var links = document.querySelectorAll('.container a');
+    
+        // Loop through the links
+        for (var i = 0; i < links.length; i++) {
+            // If the href of the link matches the current URL
+            if (links[i].href == window.location.href) {
+                // Add the 'current' class to the link
+                links[i].classList.add('current');
+            }
+        }
+    </script>
+</body>
+</html>

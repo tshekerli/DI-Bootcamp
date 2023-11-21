@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+    <div class="head">
+        <h1>Olim Hadashim</h1>
+    </div>
+
+    <div class="container">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about.html">About Olim</a></div>
+        <div class="link"><a href="resources.html">Resources</a></div>
+        <div class="link"><a href="contact.html">Contact Olim</a></div>
+    </div>
+    <div class="content">
+        <h2>Olim's Story:</h2>
+        <p> 
+            Born in the fictional city of Qalb Al-Amal, Olim's life took an unexpected turn as conflict forced him to
+            seek refuge in a new land. His journey is marked by courage, determination, and an unwavering spirit to
+            overcome the adversities of displacement. Today, Olim stands at the crossroads of rebuilding his life, and
+            your compassion can make a tangible difference in this transformative process.
+           </p>
+        <div class="second"><img src="./images/3.jpg" alt="Image of a young refugee Olim Hadashim"></div>
+        <h2>Understanding the Needs:</h2>
+        <p> 
+            Olim faces a range of challenges as he navigates his new reality. From securing basic necessities to finding
+            employment opportunities and building connections within the community, there are various ways we can
+            contribute to enhancing the quality of his life. In the following sections, we outline Olim's current needs
+            and provide actionable ways for you to join us in offering support.
+            Thank you for being a part of this journey. Your empathy and generosity have the power to shape a brighter
+            future for Olim Hadashim. Together, let's turn the pages of hope and resilience as we stand in solidarity
+            with him on this remarkable chapter of his life.</p>
+    </div>
+    <footer><h3>Join us in making a difference in Olim Hadashim's life. Your support, big or small, contributes to a
+        brighter and more stable future. Together, let's build a community of compassion and solidarity.</h3>
+    </footer>
+    <script>
+        // Get all links in the container
+        var links = document.querySelectorAll('.container a');
+
+        // Loop through the links
+        for (var i = 0; i < links.length; i++) {
+            // If the href of the link matches the current URL
+            if (links[i].href == window.location.href) {
+                // Add the 'current' class to the link
+                links[i].classList.add('current');
+            }
+        }
+    </script>
+</body>
+
+</html>
