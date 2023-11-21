@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olim Hadashim Help Page</title>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <div class="head">
+        <h1>Olim Hadashim</h1>
+    </div>
+
+    <div class="container">
+        <div class="link"><a href="index.html">Home</a></div>
+        <div class="link"><a href="about.html">About Olim</a></div>
+        <div class="link"><a href="resources.html">Resources</a></div>
+        <div class="link"><a href="contact.html">Contact Olim</a></div>
+    </div>
+
+    <div class="content">
+        <p> Welcome to the official page dedicated to Olim Hadashim, a resilient individual whose journey as a refugee
+            has
+            brought him to a new chapter of life filled with challenges and uncertainties. Here, we invite you to learn
+            more
+            about Olim's needs and aspirations and join us in extending a helping hand to make a positive impact on his
+            journey.</p>
+        <img src="./images/1.jpg" alt="Image of a young refugee Olim Hadashim">
+        <p>In the heart of a world marked by upheaval, we meet Olim Hadashim, a resilient soul navigating the intricate
+            paths of life as a refugee. Born in the fictional city of Qalb Al-Amal, Olim's journey unfolds against the
+            backdrop of adversity and the pursuit of hope.</p>
+    </div>
+
+
+    <script>
+        // Get all links in the container
+        var links = document.querySelectorAll('.container a');
+    
+        // Loop through the links
+        for (var i = 0; i < links.length; i++) {
+            // If the href of the link matches the current URL
+            if (links[i].href == window.location.href) {
+                // Add the 'current' class to the link
+                links[i].classList.add('current');
+            }
+        }
+    </script>
+</body>
+
+</html>

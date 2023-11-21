@@ -1,0 +1,58 @@
+body{
+    background-image: url('.')
+}
+
+.head{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+
+}
+.link {
+    padding: 10px; /* This will add some space around the text inside the box */
+    border: 1px solid black; /* This will create a border around the box */
+    border-radius: 10px; /* This will round the edges of the box */
+    background-color: #F3EEEA;
+}
+.link a:hover, .link a:active {
+    background-color: #ddd; /* This will change the background color of the link */
+    color: red; /* This will change the text color of the link */
+}
+
+.current {
+    background-color: #ddd; /* This will change the background color of the current link */
+    color: red; /* This will change the text color of the current link */
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 60px;
+    padding: 14px 16px;
+    
+}
+.container a {
+    color: black;
+    text-decoration: none;
+}
+.link{
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    color: #F3EEEA;
+}
+.content{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+.content img{
+    max-width: 500px;
+}
