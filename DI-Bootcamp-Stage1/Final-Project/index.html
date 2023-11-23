@@ -19,12 +19,12 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&display=swap"
                   rel="stylesheet">
-            <div  id="top"></div>
-                  <h1>
+            <div id="top"></div>
+            <h1>
                   <p>Marie Curie</p>
                   <p>First Woman to win a Nobel Prize</p>
             </h1>
-      
+
       </div>
       <!-- Table of contents button -->
       <div class="container">
@@ -295,31 +295,37 @@
                   </div>
             </div>
       </div>
+      div<footer>
+            <p>© Made by Tural</p>
+      </footer>
+      position: fixed;
+      left: 0;
+      bottom: 0;
 
       <!-- Back to top button and it's script -->
       <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-      
-      
+
+
       <script>
 
             var mybutton = document.getElementById("myBtn");
-            
+
             // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
-            
+            window.onscroll = function () { scrollFunction() };
+
             function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                  } else {
+                        mybutton.style.display = "none";
+                  }
             }
-            
+
             function topFunction() {
-              document.body.scrollTop = 0; // 
-              document.documentElement.scrollTop = 0; 
+                  document.body.scrollTop = 0; // 
+                  document.documentElement.scrollTop = 0;
             }
-            </script>
+      </script>
 </body>
 
 </html>
