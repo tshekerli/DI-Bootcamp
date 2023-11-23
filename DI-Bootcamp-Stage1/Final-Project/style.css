@@ -39,8 +39,8 @@ body {
 .icon {
 
   position: absolute;
-  top: 9%;
-  left: 42%;
+  top: 13%;
+  left: 41%;
   transform: translate(-50%, -50%);
   font-family: 'Dancing Script', cursive;
 
@@ -187,7 +187,7 @@ body {
 .texts .container>div>div>img {
   margin-right: 20px;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 400;
   object-fit: cover;
   
 }
